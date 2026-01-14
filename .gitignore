@@ -1,0 +1,35 @@
+# Passwords and User Data - NEVER COMMIT!
+*password*.txt
+*credential*.txt
+users.csv
+user-list.csv
+
+# Active Directory Exports
+*.ldf
+*.ldif
+
+# Screenshots with Sensitive Info
+*password*.png
+*credential*.png
+*user-details*.png
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# PowerShell Transcripts
+PowerShell_transcript*.txt
