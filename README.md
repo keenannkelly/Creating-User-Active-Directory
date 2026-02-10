@@ -26,11 +26,6 @@ This project demonstrates the process of creating and configuring user accounts 
 - System populated available Active Directory tools
 - Selected **"Active Directory Users and Computers"** from results list
 
-**Alternative Access Methods**:
-- Server Manager → Tools → Active Directory Users and Computers
-- Run command: `dsa.msc`
-- Administrative Tools folder
-
 ### Step 2: Navigating to the Domain
 - Located domain in ADUC console tree
 - Expanded **keenan.local** domain
@@ -112,28 +107,6 @@ keenan.local
   - Account status: Enabled
 
 **✅ Success!** The user has been successfully created and is ready for use.
-
-## 🔧 User Account Properties
-
-### Basic Information
-```
-Name:                 Bob Rich
-Username:             brich
-Domain:               keenan.local
-Full UPN:             brich@keenan.local
-Pre-2000 Logon:       KEENAN\brich
-Container:            CN=Users,DC=keenan,DC=local
-```
-
-### Account Settings
-```
-Password:             Set (secure)
-Password Expiration:  Never expires
-Account Status:       Enabled
-Logon Hours:          All hours allowed
-Logon Workstations:   All workstations
-Account Expires:      Never
-```
 
 ## 🎓 Skills Demonstrated
 
